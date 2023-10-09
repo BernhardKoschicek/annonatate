@@ -1,0 +1,65 @@
+---
+canvas: "https://openatlas.sarfstation.de/api/iiif_canvas/2/133187.json"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "sad",
+            "purpose": "commenting",
+            "creator": {
+                "id": "BernhardKoschicek",
+                "name": "Bernhard Koschi\u010dek-Krombholz"
+            },
+            "created": "2023-10-09T12:55:16.126Z",
+            "modified": "2023-10-09T12:55:16.197Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "asd",
+            "purpose": "tagging",
+            "creator": {
+                "id": "BernhardKoschicek",
+                "name": "Bernhard Koschi\u010dek-Krombholz"
+            },
+            "created": "2023-10-09T12:55:18.404Z",
+            "modified": "2023-10-09T12:55:18.622Z"
+        },
+        {
+            "purpose": "geotagging",
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16,
+                    48
+                ]
+            },
+            "creator": {
+                "id": "BernhardKoschicek",
+                "name": "Bernhard Koschi\u010dek-Krombholz"
+            },
+            "created": "2023-10-09T12:55:19.443Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://openatlas.sarfstation.de/api/iiif_manifest/2/133187",
+                "type": "Manifest"
+            },
+            "id": "https://openatlas.sarfstation.de/api/iiif_canvas/2/133187.json",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=139.10855102539062,74.54374694824219,198.1705322265625,142.65338134765625"
+        }
+    },
+    "id": "8f142544-eb8f-4142-b5d0-d54d45b09d12.json",
+    "motivation": "commenting"
+}
